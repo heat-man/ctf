@@ -1,0 +1,10 @@
+tmp0 = 0x73
+tmp1 = tmp0 ^ 0xbd7
+tmp2 = tmp1 ^ 0xba4
+tmp0 = 0x17
+tmp1 = tmp0 ^ 0xbd7
+tmp3 = tmp1 ^ 0xbc0
+tmp0 = 0x632
+tmp1 = tmp0 ^ 0xbd7
+tmp4 = tmp1 ^ 0xde5
+

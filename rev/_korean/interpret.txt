@@ -1,0 +1,71 @@
+ㄱ0: stack.pop()
+ㄲ1: stack.push(trail)
+ㄴ2: 
+ㄷ3
+ㄸ4
+ㄹ5: 
+ㅁ6: if(!trail):
+	stack[-2] += stack[-1]
+	stack.pop()
+    else:
+    	stack[-1] += trail
+ㅂ7: if(!trail):
+	stack[-2] = stack[-1] - stack[-2]
+	stack.pop()
+   else:
+   	stack[-1] -= trail
+ㅃ8: if(!trail):
+	stack[-2] *= stack[-1]
+	stack.pop()
+   else:
+   	stack[-1] *= trail
+ㅅ9: if(!trail):
+	stack[-2] = stack[-1] / stack[-2]
+	stack.pop()
+   else:
+   	stack[-1] /= trail
+ㅆ10: if(!trail):
+	stack[-2] = stack[-1] % stack[-2]
+	stack.pop()
+   else:
+   	stack[-1] %= trail
+ㅇ11: 
+ㅈ12: stack[-2] = map[stack[-1]][stack[-2]].trail
+    stack.pop()
+ㅉ13: map[stack[-2]][stack[-3]].trail = stack[-1]
+    stack.pop()
+    stack.pop()
+    stack.pop()
+ㅊ14
+ㅋ15: if(stack[-2] >= stack[-1]):
+	opposite
+      stack.pop()
+      stack.pop()
+ㅌ16: if(stack[-1] != stack[-2]):
+	opposite
+      stack.pop()
+      stack.pop()
+ㅍ17: return trail
+ㅎ18: stack.push(input[input_ptr++])
+
+ㅏ0: right
+ㅐ1
+ㅑ2: double
+ㅒ3
+ㅓ4: left
+ㅔ5
+ㅕ6 double
+ㅖ7
+ㅗ8 up
+ㅘ9
+ㅙ10
+ㅚ11
+ㅛ12 double
+ㅜ13 down
+ㅝ14
+ㅞ15
+ㅟ16
+ㅠ17 double
+ㅡ18
+ㅢ19
+ㅣ20
